@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+.clear-fix {
+  clear: both;
+}
+/* body section */
+body {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #e2eaf8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header section */
+header {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  background-color: #18477b;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+}
+header h1 {
+  padding-bottom: 10px;
+}
+header h2 {
+  color: #709dcc;
+  padding-bottom: 10px;
+}
+header .intro nav .nav-container {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 5px 15px;
+}
+header nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+header nav ul li {
+  margin: 0 8px;
+  float: left;
+}
+header nav ul li a {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #446488;
+  color: #fff;
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* about-me section */
+#about-me {
+  padding: 15px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+#about-me h2 {
+  padding-bottom: 10px;
+  color: #18477b;
+  border-bottom: 2px solid #a7bfd8;
+  font-size: 20px;
+}
+#about-me img {
+  width: 120px;
+  height: 120px;
+  margin-right: 15px;
+  border-radius: 50%;
+  float: left;
+}
+#about-me p {
+  color: #374c64;
+  font-size: 17px;
+}
+#about-me p span {
+  color: #18477b;
+  font-size: 20px;
+}
+#about-me button {
+  padding: 15px 15px;
+  background-color: #18477b;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+}
+
+/* my skills section */
+#my-skills {
+  padding: 15px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+#my-skills h2 {
+  padding-bottom: 10px;
+  color: #18477b;
+  border-bottom: 2px solid #a7bfd8;
+  font-size: 20px;
+}
+#my-skills p {
+  color: #374c64;
+  font-size: 17px;
+}
+#my-skills .skills-container {
+  width: 100%;
+  height: 140px;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+#my-skills .card-skills {
+  width: calc(25% - 10px);
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #e7f2fd;
+  border-radius: 15px;
+  float: left;
+  box-sizing: border-box;
+}
+#my-skills .card-skills h3 {
+  width: fit-content;
+  color: #18477b;
+}
+#my-skills .card-skills p {
+  width: fit-content;
+  color: #374c64;
+}
+
+/* experience section */
+#experience {
+  padding: 15px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+#experience h2 {
+  padding-bottom: 10px;
+  color: #18477b;
+  border-bottom: 2px solid #a7bfd8;
+  font-size: 20px;
+}
+#experience .card-experience {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #e7f2fd;
+  border-left: 5px solid #18477b;
+  border-radius: 20px;
+}
+#experience .card-experience img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 20px;
+  float: left;
+}
+#experience .card-experience h3 {
+  color: #363b60;
+}
+
+#experience .card-experience .company {
+  color: #0c509f;
+  font-size: 17px;
+}
+#experience .card-experience p {
+  color: #374c64;
+}
+
+/* contact-me section */
+#contact-me{
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: #18477b;
+  border-radius: 20px;
+  color: #fff;
+}
+#contact-me h2{
+  border-bottom: 2px solid #fff;
+}
+#contact-me button{
+  padding: 10px 20px;
+  background-color: #305B88;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+}
+
+/* footer section */
+footer{
+  padding: 10px;
+  margin-bottom: 25px;
+  background-color: #061A35; 
+  color: #fff; 
+  text-align: center;
+  border-radius: 15px;
+}
+footer span{
+  color: #6aaaee;
+  font-size: 17px;
+}
+
+
